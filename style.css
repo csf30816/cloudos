@@ -64,11 +64,11 @@
         background: transparent;
       }
       ::selection {
-        color: red;
+        color: blue;
         background: transparent;
       }
       ::-moz-selection {
-        color: red;
+        color: blue;
         background: transparent;
       }
       /*DDD*/
