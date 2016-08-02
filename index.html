@@ -8,6 +8,15 @@
     <link rel="shortcut icon" type="image/x-icon" href="./Cloud.png">
   </head>
   <body>
+    <script language="JavaScript">
+function redirectHttpToHttps()
+{
+    var httpURL= window.location.hostname + window.location.pathname + window.location.search;
+    var httpsURL= "https://" + httpURL;
+    window.location = httpsURL;
+}
+redirectHttpToHttps();
+</script>
     <nav id="web_head">
       <span id="myBtn"><!--<img src="./Capture.JPG" alt="=">-->≡</span>
       <span id="web_head_title">CloudOS</span>
